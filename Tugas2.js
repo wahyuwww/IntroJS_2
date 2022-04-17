@@ -25,6 +25,8 @@ keyword.toLocalLowerCase();
   result.length = angka;
 
   result = result.filter((item) => item !== undefined);
+
+  console.log(`Data yang tersedia : ${result.length}`);
   result.length ?  data(result) : console.log("data tidak ada");
  
 };
